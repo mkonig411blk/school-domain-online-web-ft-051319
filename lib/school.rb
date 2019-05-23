@@ -28,7 +28,7 @@ class School
   def sort
     @roster.each do |grade, names|
       names.sort!
-      ## even though each returns originally array, sort is destructive and changed original, you can also create an empty new array at start and then 
+      ## even though each returns originally array, sort is destructive and changed original, you can also create an empty new array at start and then return new array
       ## sorted_array = {}
       ## @roster.each do |grade, names|
       ## sorted_array[grade] = names.sort
